@@ -38,7 +38,7 @@
 		</select><script>
 function transferGoogle(target){
 		if(target.options[target.selectedIndex].value){
-			var url = 'https://translate.google.com/translate?hl=auto&sl=ja&u=' + location.href + '&tl=' + target.options[target.selectedIndex].value;
+			var url = 'https://translate.google.com/translate?hl=en&sl=en&u=' + location.href + '&tl=' + target.options[target.selectedIndex].value;
 			window.open(url);
 		}
 	}
